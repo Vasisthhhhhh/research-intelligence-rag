@@ -1,0 +1,28 @@
+
+[
+  {
+    "question": "What is the main objective of DREEP?",
+    "relevant_chunks": [3, 10],
+    "expected_answer": "DREEP aims to predict drug sensitivity at the single-cell level and prioritize drugs for specific tumour cell populations, supporting personalized treatment strategies and drug repurposing."
+  },
+  {
+    "question": "What datasets are used by DREEP?",
+    "relevant_chunks": [3],
+    "expected_answer": "DREEP uses publicly available pharmacogenomic screens from GDSC2, CTRP2, and PRISM."
+  },
+  {
+    "question": "How does intratumour heterogeneity affect cancer treatment?",
+    "relevant_chunks": [5, 6],
+    "expected_answer": "Intratumour heterogeneity creates different cancer cell populations, including rare malignant subpopulations with different molecular states that can be resistant to anticancer drugs, making complete tumour eradication more difficult."
+  },
+  {
+    "question": "What role does single-cell RNA sequencing play in the study?",
+    "relevant_chunks": [3, 6],
+    "expected_answer": "Single-cell RNA sequencing helps explore intratumour heterogeneity at the transcriptional level and provides an opportunity to study and address differences in drug response among tumour cell populations."
+  },
+  {
+    "question": "What is DREEP designed to help with?",
+    "relevant_chunks": [3, 10],
+    "expected_answer": "DREEP is designed to predict drug sensitivity and recommend drugs tailored to distinct tumour cell subpopulations, supporting more precise and personalized treatment strategies."
+  }
+]

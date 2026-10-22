@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Local vector database
+data/qdrant/
+
+# Generated chunk data
+data/processed/chunks.json
+
+# Editor
+.vscode/
+
+# Research paper source files
+data/raw/*.pdf
